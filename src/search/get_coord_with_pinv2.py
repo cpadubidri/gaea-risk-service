@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from tqdm import tqdm
 
-def get_lat_lon_from_pincode(pincode, country="Cyprus", API_KEY="AIzaSyBeobPO1mYVi1R1f4UKpitzyepPQmRBdgE"):
+def get_lat_lon_from_pincode(pincode, country="Cyprus", API_KEY="*******"):
     base_url = "https://maps.googleapis.com/maps/api/geocode/json"
     # Build the query using the pincode and country
     query = f"{pincode}, {country}"
