@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from tqdm import tqdm
 
-def get_lat_lon_from_community(community_name, country="Cyprus", API_KEY="AIzaSyBeobPO1mYVi1R1f4UKpitzyepPQmRBdgE"):
+def get_lat_lon_from_community(community_name, country="Cyprus", API_KEY="*********"):
     base_url = "https://maps.googleapis.com/maps/api/geocode/json"
     # Include the country to help narrow down results
     query = f"{community_name}, {country}"
